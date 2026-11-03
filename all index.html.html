@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ragul Digital | Meta Ads, Social Media & SEO</title>
+<meta name="description" content="Ragul Digital: Create, Connect, Grow. Meta Ads, social media marketing and SEO packages for growing businesses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f5ff;--card:#fff;--ink:#0d1330;--mute:#525c80;--royal:#2f4bff;--sun:#ffcf33;--deep:#0d1330;--line:#d9defa;--on-deep:#fff;--soft:#b8c1ee;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#080c20;--card:#111838;--ink:#eef1ff;--mute:#a4aed6;--royal:#7a8dff;--deep:#151d45;--line:#232c5c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#080c20;--card:#111838;--ink:#eef1ff;--mute:#a4aed6;--royal:#7a8dff;--deep:#151d45;--line:#232c5c;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',system-ui,'Segoe UI',sans-serif;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--deep);z-index:50}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,.brand,.big{font-family:'Bricolage Grotesque','DM Sans',sans-serif}
+.wrap{max-width:1140px;margin:0 auto;padding:0 22px}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+/* top ad ticker */
+.ticker{background:var(--sun);color:#0d1330;font-weight:700;font-size:.92rem;overflow:hidden;white-space:nowrap}
+.ticker div{display:inline-block;padding:9px 0;animation:tick 28s linear infinite}
+.ticker span{margin:0 26px}
+@keyframes tick{to{transform:translateX(-50%)}}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--card);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:66px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.25rem}
+.mono{width:36px;height:36px;border-radius:10px;background:var(--royal);color:#fff;display:grid;place-items:center;font-weight:800}
+nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;font-weight:500}
+nav a:hover{color:var(--royal)}
+.btn{display:inline-block;border:2px solid transparent;border-radius:12px;padding:13px 22px;font:inherit;font-weight:700;cursor:pointer}
+.b-sun{background:var(--sun);color:#0d1330}
+.b-royal{background:var(--royal);color:#fff}
+.b-line{border-color:var(--ink);color:var(--ink);background:transparent}
+.menu{display:none;background:none;border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:8px 14px;font:inherit;font-weight:700}
+/* hero banner */
+.hero{background:radial-gradient(900px 520px at 88% 15%,rgba(47,75,255,.6),transparent 62%),radial-gradient(600px 400px at 0% 100%,rgba(255,207,51,.2),transparent 60%),var(--deep);color:var(--on-deep);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;padding-top:64px;padding-bottom:64px}
+.badge{display:inline-block;background:var(--royal);color:#fff;font-weight:700;padding:6px 16px;border-radius:999px;margin-bottom:18px;font-size:.92rem}
+h1{font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.02;letter-spacing:-.03em;margin:0 0 18px;font-weight:800}
+h1 em{font-style:normal;background:var(--sun);color:#0d1330;padding:0 .18em;border-radius:10px;white-space:nowrap}
+.hero p{color:var(--soft);font-size:1.12rem;max-width:50ch;margin:0 0 28px}
+.ad{background:var(--card);color:var(--ink);border-radius:24px;padding:18px;transform:rotate(2.5deg);box-shadow:0 24px 50px rgba(0,0,0,.35);max-width:340px;margin-left:auto}
+.ad .top{display:flex;align-items:center;gap:10px;font-size:.88rem;margin-bottom:12px}
+.ad .top i{width:34px;height:34px;border-radius:50%;background:var(--royal);display:block}
+.ad .top small{display:block;color:var(--mute)}
+.ad .pic{background:linear-gradient(135deg,var(--royal),#10206e);color:#fff;border-radius:16px;padding:26px 20px;min-height:170px;display:flex;flex-direction:column;justify-content:space-between}
+.ad .pic b{font-family:'Bricolage Grotesque',sans-serif;font-size:1.6rem;line-height:1.1}
+.ad .pic span{background:var(--sun);color:#0d1330;font-weight:700;align-self:flex-start;padding:7px 16px;border-radius:8px;font-size:.88rem}
+.ad .foot{display:flex;justify-content:space-between;margin-top:12px;font-size:.85rem;color:var(--mute)}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.chips span{border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:6px 14px;font-size:.88rem;color:var(--soft)}
+.stage{position:relative;min-height:460px}
+.stage .ad{position:absolute;left:50%;top:24px;margin:0;width:290px;transform:translateX(-50%) rotate(3deg)}
+.bub{position:absolute;width:64px;height:64px;border-radius:50%;display:grid;place-items:center;color:#fff;box-shadow:0 10px 24px rgba(0,0,0,.35);animation:fl 5s ease-in-out infinite}
+.bub svg{width:32px;height:32px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.bub b{font-family:'Bricolage Grotesque',sans-serif;font-size:2rem}
+.b1{background:#1877f2;left:0;top:50px}.b2{background:linear-gradient(45deg,#f9a825,#e1306c,#7b3fe4);right:0;top:8px;animation-delay:-1.6s}.b3{background:#fff;color:#2f4bff;left:-4px;bottom:120px;animation-delay:-3s}
+@keyframes fl{50%{transform:translateY(-12px)}}
+.burst{position:absolute;right:-4px;bottom:8px;background:var(--sun);color:#0d1330;border-radius:20px;padding:12px 22px;transform:rotate(-4deg);box-shadow:0 14px 30px rgba(0,0,0,.4);text-align:center}
+.burst small{display:block;font-weight:700;font-size:.82rem}.burst b{font-family:'Bricolage Grotesque',sans-serif;font-size:2.2rem;line-height:1;display:block}
+.bars{position:absolute;left:10%;bottom:0;display:flex;align-items:flex-end;gap:9px;height:130px}
+.bars i{width:24px;border-radius:6px 6px 0 0;background:rgba(255,255,255,.25);height:0;animation:gr 1.1s .3s cubic-bezier(.2,.8,.2,1) forwards}
+.bars i:nth-child(1){--h:44px}.bars i:nth-child(2){--h:70px}.bars i:nth-child(3){--h:92px}.bars i:nth-child(4){--h:130px;background:var(--sun)}
+@keyframes gr{to{height:var(--h)}}
+.ic{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ico{display:grid;place-items:center;width:52px;height:52px;border-radius:14px;background:var(--royal);color:#fff;margin-bottom:14px}
+.row.hot .ico{background:var(--sun);color:#0d1330}
+.work{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center;background:var(--deep);color:var(--on-deep);border-radius:28px;padding:40px}
+.work p{color:var(--soft);margin:0 0 6px;max-width:56ch}
+.work small{color:var(--soft);font-size:.85rem}
+/* sections */
+section{padding:76px 0}
+.card-bg{background:var(--card);border-block:1px solid var(--line)}
+h2{font-size:clamp(1.8rem,3.6vw,2.7rem);line-height:1.1;letter-spacing:-.025em;margin:0 0 12px;font-weight:800}
+.lead{color:var(--mute);max-width:58ch;margin:0 0 38px;font-size:1.05rem}
+.svc{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.svc div{border:1px solid var(--line);border-radius:18px;padding:22px;background:var(--bg)}
+.svc h3{margin:0 0 6px;font-size:1.15rem}
+.svc p{margin:0;color:var(--mute);font-size:.95rem}
+/* price rows */
+.row{display:grid;grid-template-columns:260px 1fr auto;gap:28px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px 30px;margin-bottom:18px}
+.row.hot{background:var(--deep);color:var(--on-deep);border-color:var(--deep)}
+.row .big{font-size:2.9rem;font-weight:800;line-height:1;letter-spacing:-.03em}
+.row .big small{font-size:1rem;font-weight:500;color:var(--mute);font-family:'DM Sans',sans-serif}
+.row.hot .big small{color:var(--soft)}
+.row h3{margin:0 0 6px;font-size:1.2rem}
+.row .sub{color:var(--mute);font-size:.92rem;margin:0 0 14px}
+.row.hot .sub{color:var(--soft)}
+.row ul{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}
+.row li{padding:4px 0 4px 22px;position:relative;font-size:.94rem;break-inside:avoid}
+.row li::before{content:"";position:absolute;left:0;top:.8em;width:12px;height:3px;border-radius:2px;background:var(--royal)}
+.row.hot li::before{background:var(--sun)}
+.note{font-size:.85rem;color:var(--soft);margin:12px 0 0}
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:3px solid var(--ink)}
+.step{padding:22px 22px 0 0}
+.step b{font-family:'Bricolage Grotesque',sans-serif;font-size:1.15rem;display:block;margin-bottom:4px}
+.step span{color:var(--mute);font-size:.94rem}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 34px}
+.why h3{margin:0 0 4px;font-size:1.1rem}
+.why p{margin:0;color:var(--mute);font-size:.95rem}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";font-size:1.5rem;line-height:1;color:var(--royal)}
+details[open] summary::after{content:"\2212"}
+details p{color:var(--mute);margin:10px 0 0;max-width:62ch}
+.contact{background:var(--deep);color:var(--on-deep);border-radius:30px;display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:46px}
+.contact p{color:var(--soft);margin:0 0 22px}
+.contact .num{font-family:'Bricolage Grotesque',sans-serif;font-size:2.2rem;font-weight:800;color:var(--sun);display:block;margin-bottom:12px}
+form{display:grid;gap:12px}
+input,select,textarea{width:100%;padding:13px 15px;border-radius:12px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:#fff;font:inherit}
+select option{color:#0d1330}
+::placeholder{color:#b3bce8}
+textarea{min-height:92px;resize:vertical}
+footer{padding:30px 0 90px;text-align:center;color:var(--mute);font-size:.9rem}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:#25d366;color:#fff;font-weight:700;border-radius:999px;padding:13px 20px;box-shadow:0 6px 18px rgba(0,0,0,.3);z-index:45}
+@media (max-width:880px){
+ nav{display:none}nav.open{display:block;position:absolute;top:66px;left:0;right:0;background:var(--card);border-bottom:1px solid var(--line);padding:14px 22px}
+ nav.open ul{flex-direction:column;gap:14px}.menu{display:block}.nav>.btn{display:none}
+ .hero .wrap,.contact{grid-template-columns:1fr}.ad{margin:10px auto 0}
+ .svc,.why{grid-template-columns:1fr}.row{grid-template-columns:1fr;gap:16px}.row ul{columns:1}
+ .steps{grid-template-columns:1fr 1fr;row-gap:24px}.contact{padding:28px}
+}
+@media (max-width:880px){.work{grid-template-columns:1fr;padding:28px}}
+@media (max-width:1000px) and (min-width:881px){.svc{grid-template-columns:1fr 1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker div,.bub{animation:none}.bars i{animation:none;height:var(--h)}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-meta" viewBox="0 0 24 24"><path d="M12 12c-1.6-2.4-3.2-4-5-4a4 4 0 000 8c1.8 0 3.4-1.6 5-4zm0 0c1.6 2.4 3.2 4 5 4a4 4 0 000-8c-1.8 0-3.4 1.6-5 4z"/></symbol>
+<symbol id="i-smm" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M12 15s-3-1.8-3-3.8a1.7 1.7 0 013-1 1.7 1.7 0 013 1c0 2-3 3.8-3 3.8z"/></symbol>
+<symbol id="i-seo" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><path d="M15 15l6 6M7.5 12.5v-2M10 12.5v-5M12.5 12.5v-3"/></symbol>
+<symbol id="i-gmb" viewBox="0 0 24 24"><path d="M12 21.5s-6.5-5.8-6.5-10.8a6.5 6.5 0 0113 0c0 5-6.5 10.8-6.5 10.8z"/><circle cx="12" cy="10.5" r="2.3"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></symbol>
+</defs></svg>
+<div class="ticker" aria-label="Offers"><div>
+ <span>Meta Ads Services just ₹5,000 / month</span><span>Social Media Marketing ₹8,000 / month</span><span>Advanced SEO ₹10,000 / month</span><span>Google Business Profile ₹4,000 / month</span><span>Call 8680828736</span>
+ <span>Meta Ads Services just ₹5,000 / month</span><span>Social Media Marketing ₹8,000 / month</span><span>Advanced SEO ₹10,000 / month</span><span>Google Business Profile ₹4,000 / month</span><span>Call 8680828736</span>
+</div></div>
+<header><div class="wrap nav">
+ <a class="brand" href="#home"><span class="mono">R</span>Ragul Digital</a>
+ <nav id="nav"><ul><li><a href="#services">Services</a></li><li><a href="#packages">Packages</a></li><li><a href="https://ragul-s-portfolio-seven.vercel.app/" target="_blank" rel="noopener">Our Work</a></li><li><a href="#process">Process</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+ <a class="btn b-royal" href="#contact">Get a free quote</a>
+ <button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+</div></header>
+
+<main id="home">
+ <div class="hero"><div class="wrap">
+  <div>
+   <span class="badge">Create · Connect · Grow</span>
+   <h1>Turn clicks into <em>customers.</em></h1>
+   <p>Ragul Digital runs your Meta Ads, social media and SEO. More leads, more sales and real business growth, with reports you can understand.</p>
+   <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn b-sun" href="#contact">Get a free quote</a><a class="btn b-line" style="border-color:#fff;color:#fff" href="#packages">See packages</a></div>
+   <div class="chips"><span>Meta Ads</span><span>Social Media</span><span>SEO</span><span>Google Business Profile</span></div>
+  </div>
+  <div class="stage" aria-hidden="true">
+   <div class="bub b1"><b>f</b></div>
+   <div class="bub b2"><svg><use href="#i-ig"/></svg></div>
+   <div class="bub b3"><svg><use href="#i-meta"/></svg></div>
+   <div class="ad">
+    <div class="top"><i></i><div><b>Your Business</b><small>Sponsored</small></div></div>
+    <div class="pic"><b>Grow your business</b><span>Shop Now</span></div>
+    <div class="foot"><span>1.2K likes</span><span>Comment · Share</span></div>
+   </div>
+   <div class="bars"><i></i><i></i><i></i><i></i></div>
+   <div class="burst"><small>Meta Ads just @</small><b>₹5,000</b><small>/ month</small></div>
+  </div>
+ </div></div>
+
+ <section id="services"><div class="wrap">
+  <h2>What we do for you</h2>
+  <p class="lead">Three services, one goal: get the right people to find you and buy from you.</p>
+  <div class="svc">
+   <div><span class="ico"><svg class="ic"><use href="#i-meta"/></svg></span><h3>Meta Ads</h3><p>Facebook and Instagram campaigns for awareness, leads or sales.</p></div>
+   <div><span class="ico"><svg class="ic"><use href="#i-smm"/></svg></span><h3>Social media marketing</h3><p>Posts, reels, designs and full account management.</p></div>
+   <div><span class="ico"><svg class="ic"><use href="#i-seo"/></svg></span><h3>SEO</h3><p>Rank higher on Google and bring in quality traffic.</p></div>
+   <div><span class="ico"><svg class="ic"><use href="#i-gmb"/></svg></span><h3>Google Business Profile</h3><p>Show up on Google search and Maps when customers look nearby.</p></div>
+  </div>
+ </div></section>
+
+ <section class="card-bg" id="packages"><div class="wrap">
+  <h2>Monthly packages</h2>
+  <p class="lead">Clear prices. Pick one or combine them.</p>
+
+  <article class="row">
+   <div><span class="ico"><svg class="ic"><use href="#i-meta"/></svg></span><div class="big">₹5,000<small> / month</small></div></div>
+   <div>
+    <h3>Meta Ads Services</h3><p class="sub">Turn clicks into customers.</p>
+    <ul><li>Strategic campaign setup</li><li>Advanced audience targeting</li><li>High-performing creatives</li><li>Campaign optimization</li><li>Lead generation and sales focus</li><li>A/B testing</li><li>Detailed performance reports</li><li>Ongoing support</li></ul>
+   </div>
+   <a class="btn b-royal" href="#contact" data-pick="Meta Ads Services">Choose</a>
+  </article>
+
+  <article class="row hot">
+   <div><span class="ico"><svg class="ic"><use href="#i-smm"/></svg></span><div class="big">₹8,000<small> / month</small></div></div>
+   <div>
+    <h3>Social Media Marketing</h3><p class="sub">Build your brand. Grow your business.</p>
+    <ul><li>10 creative social media posts</li><li>6 professional reels</li><li>Creative graphic designing</li><li>Reels editing and optimization</li><li>Social media account management</li><li>Meta Ads setup and management</li><li>Monthly content calendar</li><li>Audience targeting and reports</li></ul>
+    <p class="note">Note: Meta Ads budget is separate from the package fee.</p>
+   </div>
+   <a class="btn b-sun" href="#contact" data-pick="Social Media Marketing">Choose</a>
+  </article>
+
+  <article class="row">
+   <div><span class="ico"><svg class="ic"><use href="#i-seo"/></svg></span><div class="big">₹10,000<small> / month</small></div></div>
+   <div>
+    <h3>Advanced SEO</h3><p class="sub">Get found on Google. Get more customers.</p>
+    <ul><li>Website SEO audit</li><li>Keyword research (30+ keywords)</li><li>On-page SEO optimization</li><li>Technical SEO optimization</li><li>Competitor analysis</li><li>Content optimization</li><li>Off-page SEO and backlinks</li><li>Search Console and Analytics setup</li></ul>
+   </div>
+   <a class="btn b-royal" href="#contact" data-pick="Advanced SEO">Choose</a>
+  </article>
+
+  <article class="row">
+   <div><span class="ico"><svg class="ic"><use href="#i-gmb"/></svg></span><div class="big">₹4,000<small> / month</small></div></div>
+   <div>
+    <h3>Google Business Profile (GMB)</h3><p class="sub">Get found by customers near you.</p>
+    <ul><li>Google Business Profile (GMB) optimization</li><li>Better local visibility on Google</li><li>Maps and local search presence</li><li>Profile updates and support</li></ul>
+   </div>
+   <a class="btn b-royal" href="#contact" data-pick="Google Business Profile">Choose</a>
+  </article>
+ </div></section>
+
+ <section id="work"><div class="wrap">
+  <h2>Our work</h2>
+  <p class="lead">See our social media, content and performance marketing work in our portfolio.</p>
+  <div class="work">
+   <div>
+    <p>Strategic content and data-backed execution that help brands build a scalable digital presence.</p>
+    <small>ragul-s-portfolio-seven.vercel.app</small>
+   </div>
+   <a class="btn b-sun" href="https://ragul-s-portfolio-seven.vercel.app/" target="_blank" rel="noopener">View our portfolio</a>
+  </div>
+ </div></section>
+
+ <section id="process"><div class="wrap">
+  <h2>How we work</h2>
+  <p class="lead">Four steps, repeated every month.</p>
+  <div class="steps">
+   <div class="step"><b>1. Research</b><span>Goals, audience and competitors.</span></div>
+   <div class="step"><b>2. Plan</b><span>Content calendar, ads and keywords.</span></div>
+   <div class="step"><b>3. Launch</b><span>Posts, reels, ads and SEO go live.</span></div>
+   <div class="step"><b>4. Improve</b><span>Monthly report, then we optimize.</span></div>
+  </div>
+ </div></section>
+
+ <section class="card-bg"><div class="wrap">
+  <h2>Why Ragul Digital</h2>
+  <p class="lead">Marketing that is simple, measurable and built around your goal.</p>
+  <div class="why">
+   <div><h3>Results first</h3><p>Every campaign is tied to leads, sales or reach.</p></div>
+   <div><h3>Right audience</h3><p>We reach people who are likely to buy.</p></div>
+   <div><h3>Plain reports</h3><p>You see leads, sales and ROI clearly.</p></div>
+   <div><h3>Eye-catching creatives</h3><p>Ad designs and videos that stop the scroll.</p></div>
+   <div><h3>Data-driven</h3><p>A/B tests and analytics guide each decision.</p></div>
+   <div><h3>Support</h3><p>Expert help at every step.</p></div>
+  </div>
+ </div></section>
+
+ <section id="faq"><div class="wrap" style="max-width:800px">
+  <h2>Common questions</h2>
+  <p class="lead">Quick answers before you get in touch.</p>
+  <details><summary>Is the ad budget included?</summary><p>No. The Meta Ads budget is separate. The package fee covers our work.</p></details>
+  <details><summary>Can I combine packages?</summary><p>Yes. Contact us and we will suggest the best mix for your business.</p></details>
+  <details><summary>Which platforms do you work on?</summary><p>Instagram, Facebook and WhatsApp for social and ads, and Google for SEO.</p></details>
+  <details><summary>How will I see results?</summary><p>You get performance reports covering leads, sales and ROI.</p></details>
+ </div></section>
+
+ <section style="padding-top:0" id="contact"><div class="wrap">
+  <div class="contact">
+   <div>
+    <h2>Get started today</h2>
+    <p>More leads. More sales. Real business growth. Call or message us.</p>
+    <a class="num" href="tel:+918680828736">8680828736</a>
+    <a class="btn b-sun" href="https://wa.me/918680828736">Chat on WhatsApp</a>
+   </div>
+   <form id="f">
+    <input id="n" placeholder="Your name" required autocomplete="name">
+    <input id="p" type="tel" placeholder="Phone number" required autocomplete="tel">
+    <select id="s"><option>Meta Ads Services</option><option>Social Media Marketing</option><option>Advanced SEO</option><option>Google Business Profile</option><option>Not sure yet</option></select>
+    <textarea id="m" placeholder="Tell us about your business"></textarea>
+    <button class="btn b-sun" type="submit">Send on WhatsApp</button>
+    <a class="btn" style="border-color:#fff;color:#fff;text-align:center" href="https://ragul-s-portfolio-seven.vercel.app/" target="_blank" rel="noopener">Our Work: view our portfolio</a>
+   </form>
+  </div>
+ </div></section>
+</main>
+<footer><div class="wrap">© 2026 Ragul Digital. Your Digital Growth Partner.</div></footer>
+<a class="wa" href="https://wa.me/918680828736" aria-label="Chat on WhatsApp">WhatsApp</a>
+<script>
+var nav=document.getElementById('nav'),mb=document.getElementById('menu');
+mb.onclick=function(){var o=nav.classList.toggle('open');mb.setAttribute('aria-expanded',o)};
+nav.onclick=function(){nav.classList.remove('open');mb.setAttribute('aria-expanded',false)};
+document.querySelectorAll('[data-pick]').forEach(function(a){a.addEventListener('click',function(){document.getElementById('s').value=a.dataset.pick})});
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();
+ var t='Hi Ragul Digital, I am '+n.value+'. Phone: '+p.value+'. Interested in: '+s.value+'. '+m.value;
+ window.open('https://wa.me/918680828736?text='+encodeURIComponent(t),'_blank')});
+</script>
+</body>
+</html>
